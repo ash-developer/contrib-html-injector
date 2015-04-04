@@ -1,0 +1,38 @@
+{
+  "name": "contrib-html-injector",
+  "description": "Grunt task for inject dependencies into html files",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ash-developer/contrib-html-injector",
+  "author": {
+    "name": "Andrei Shevel",
+    "email": "ash.developer@yandex.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ash-developer/contrib-html-injector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ash-developer/contrib-html-injector/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ash-developer/contrib-html-injector/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "lodash": "^3.6.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "grunt", "plugin", "injector", "html"
+  ]
+}
